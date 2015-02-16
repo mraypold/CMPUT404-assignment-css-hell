@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+body{
+ background-color: white;
+ padding-left: 4em;
+ padding-right: 4em;
+}
+.header {
+
+}
+.tablecontents{
+}
+.toc {
+}
+.chapter {
+ background-color: white;
+ padding-left: 4em;
+ padding-right: 4em;
+}
+.chapter p {
+ text-indent: 2em;
+}
+.chapter p:first-of-type:first-letter {
+ font-weight: bold;
+ font-size: 200%;
+ font-family: 'Berkshire Swash', cursive;
+ letter-spacing: 2px;
+}
+.chapter h2 {
+ font-family: 'Berkshire Swash', cursive;
+ text-align: center;
+}
+.gutenberg {
+ text-align: center;
+}
+.license {
+ text-align: center;
+ border: 2px solid;
+ border-radius: 25px;
+ border-color: red;
+}
+.title-page {
+ text-align: center;
+ border: 2px solid;
+ border-radius: 10px;
+}
+.title {
+ font-family: 'Berkshire Swash', cursive;
+ font-size: 200%;
+}
