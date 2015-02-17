@@ -24,17 +24,28 @@ Chosen Gutenberg Documents:
 
 HTML Modifications
 
-* I added specific <div> and <span> tags for inline titles, copyright, and licenscing
-* The original intention was to seperate chapters by <div class="chapter"> tags, to stylize the first letter of each chapter, but there already existed a "smcap" class that did something similar, so I used that.
-* In general, I tried to use existing classes in the Gutenberg documents instead of making my own.
+* I added specific `<div>` and `<span>` tags for inline titles, copyright, and licensing
+* Added chapter classes for each chapter.
+* In general, I tried to use existing classes in the Gutenberg documents instead of making my own. For instance, using the existing toc class for table of contents.
 
+Style Modifications
+
+* Added custom google fonts for titles and first letter of chapters.
+* Text now takes up the entire length of paragraph within margins.
+* Increased margin size.
+* Made a title page and styled it to look like a book.
+* License at bottom of document stands out in red.
+* Changed some background colours.
+* Necessary changes from requirements.org (header, img, etc...)
 
 Part II
 =================
 
-Sources:
+Sources Specific to Part II:
 
 * Help with [sidebar layout](http://stackoverflow.com/questions/18147887/html-layout-adding-sidebar-column-to-existing-site)
+* Github and Twitter icons taken from the base Jekyll template.
+* JQuery
 
 License/Copyright
 =================
@@ -45,7 +56,6 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-External Libraries
+External Libraries and Sources
 =================
-* [LiveJS](http://www.livejs.com/)
-* [Open-Iconic](https://github.com/iconic/open-iconic)
+* Made use of google fonts [Open Sans](https://www.google.com/fonts/#QuickUsePlace:quickUse) and [Berkshire Swash](http://www.google.com/fonts#UsePlace:use/Collection:Berkshire+Swash)
