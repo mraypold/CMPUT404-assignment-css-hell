@@ -1,0 +1,141 @@
+/*
+ Assistance for sidebar CSS and HTML from
+ http://startbootstrap.com/template-overviews/simple-sidebar/
+
+ Simple-Sidebar content is licensed under Apache V2.
+
+ Further sidebar assistance from
+ http://www.jonathanbriehl.com/2014/01/17/vertical-menu-for-bootstrap-3/
+
+ Fixed anchor tags
+ http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
+
+ Stary background
+ http://lea.verou.me/css3patterns/#starry-night
+*/
+
+/*Courgette from google fonts*/
+@font-face {
+ font-family: 'Courgette'; /*a name to be used later*/
+ src: url('../fonts/Courgette-Regular.ttf'); /*URL to font*/
+}
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: black;
+ /*http://lea.verou.me/css3patterns/#starry-night*/
+ background-image: radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
+ background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+ color: white;
+}
+p {
+ text-indent: 1em;
+ font-family: "Comic Sans MS", cursive, sans-serif
+}
+.article p:first-of-type:first-letter {
+ font-weight: bold;
+ font-size: 150%;
+}
+.article p::first-letter {
+ color: #8e44ad;
+ font-weight: bold;
+}
+h1 {
+ font-family: 'Courgette', cursive;
+ text-decoration: underline;
+}
+.table-responsive {
+ background-color: #f1c40f;
+}
+.table-hover > tbody > tr:hover {
+ background-color: #8e44ad;
+}
+.table-hover > tbody > tr:nth-child(even) {
+ background-color: #f39c12;
+}
+a.anchor {
+ display: block;
+ position: relative;
+ top: -50px;
+ visibility: hidden;
+}
+.img-thumbnail {
+ display: block;
+ margin: 0 auto;
+}
+.degree {
+ background: rgba(0, 0, 0, 0.1);
+}
+.degree-title {
+ font-weight: bold;
+}
+.degree-date {
+ font-weight: lighter;
+}
+.navbar-default {
+ background-color: #c0392b;
+ border-color: #f1c40f;
+}
+.navbar-default .navbar-brand {
+ color: black;
+ font-size: 200%;
+}
+.navbar-default .navbar-nav > li > a {
+ color: black;
+ font-size: 200%;
+}
+.list-group-item {
+ color: black;
+}
+#wrapper {
+ padding-left: 0;
+ padding-top: 50px;
+}
+#sidebar-wrapper {
+ z-index: 1000;
+ position: fixed;
+ left: 250px;
+ width: 0;
+ height: 100%;
+ margin-left: -250px;
+ overflow-y: auto;
+ background: #000;
+ background: #F8F8F8;
+ border-color: #e7e7e7;
+ text-align: center;
+ padding-right: 1em;
+ padding-left: 1em;
+ background-color: #c0392b;
+}
+#sidebar-wrapper p {
+ color: black;
+}
+#sidebar-wrapper h3 {
+ font-weight: bold;
+ color: #1abc9c;
+}
+#page-content-wrapper {
+ width: 100%;
+ position: absolute;
+ padding: 15px;
+}
+.sidebar-nav {
+ position: absolute;
+ top: 0;
+ width: 250px;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+@media(min-width:768px) {
+ #wrapper {
+  padding-left: 250px;
+ }
+ #sidebar-wrapper {
+  width: 250px;
+ }
+ #page-content-wrapper {
+  padding: 20px;
+  position: relative;
+ }
+}

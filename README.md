@@ -42,24 +42,29 @@ Style Modifications
 Part II
 =================
 
-Made use of bootstrap and some css/html code provided by others to make the webpage look more professional. I have included my first disasterous attempt in the throwaway folder for comparion.
+Made use of bootstrap and some css/html code provided by others to make the webpage look more professional. I have included my first disasterous attempt in the throwaway folder for comparison.
+
+Both HTML files are the same when running `diff -w -B index_nice.html index_ugly.html > diff.txt`.
 
 Sources Specific to Part II:
 
 * Help with [sidebar layout](http://stackoverflow.com/questions/18147887/html-layout-adding-sidebar-column-to-existing-site)
 * Used some code from the [Simple Sidebar](http://startbootstrap.com/template-overviews/simple-sidebar/) template by start boostrap. Modifications made to coloring and spacing to match existing bootstrap theme and positioning. Simple Sidebar licensed under [Apache v2.0](https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
 * Further assistance with sidebar from [Jonathan Briehl](http://www.jonathanbriehl.com/2014/01/17/vertical-menu-for-bootstrap-3/)
-* JQuery
+* Stary background pattern css by [Lea Verou](http://lea.verou.me/css3patterns/#starry-night)
+* Overwrote some Bootstrap classes to change the styling for the ugly theme.
 
 License/Copyright
 =================
 
-Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
-4.0 unported license. Attribution should be a hyperlink to the
+Textual content is copyright Abram Hindle (C) 2013 under the [CC-BY-SA
+4.0 unported license](https://creativecommons.org/licenses/by-sa/4.0/legalcode). Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Existing licenses maintained by Michael Raypold
+
 External Libraries and Sources
 =================
-* Made use of google fonts [Open Sans](https://www.google.com/fonts/#QuickUsePlace:quickUse) and [Berkshire Swash](http://www.google.com/fonts#UsePlace:use/Collection:Berkshire+Swash)
+* Made use of google fonts [Open Sans](https://www.google.com/fonts/#QuickUsePlace:quickUse), [Berkshire Swash](http://www.google.com/fonts#UsePlace:use/Collection:Berkshire+Swash), and [Courgette](http://www.google.com/fonts/specimen/Courgette)
