@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,600,800);
+html,
+body {
+ margin: 0px;
+ padding: 0px;
+ min-height: 100%;
+ height: 100%;
+ font-family: 'Open Sans', sans-serif;
+}
+.maincontainer {
+ min-height: 100%;
+ height: auto;
+ position: relative;
+}
+.sidebar {
+ height: 100%;
+ float: left;
+ background-color: #34495E;
+ width: 20%;
+ margin-bottom: 0;
+ position: absolute;
+ color: #9BABAB;
+ font-weight: bold;
+}
+.contact {
+ text-align: left;
+}
+.sidebar a:link {
+ color: #BFBFBF;
+}
+.sidebar a:visited {
+ color: #BFBFBF;
+}
+.sidebar a:hover {
+ color: #BFBFBF;
+ font-size: 110%;
+}
+.sidebar a:active {
+ color: #BFBFBF;
+}
+.sidecontent {
+ font-size: 80%;
+ margin-left: 1em;
+ margin-right: 1em;
+ font-weight: normal;
+}
+.sidecontent h3 {
+ text-align: left;
+}
+.main {
+ margin-top: 0;
+ margin-left: 20%;
+ background-color: white;
+ width: 80%;
+ height: 100%;
+ position: absolute;
+ /*margin-left: 5px;*/
+}
+.maincontent {
+ margin-left: 2em;
+ margin-right: 2em;
+ margin-top: 2em;
+}
+article {
+ border-left: thin solid #7F8C8D;
+}
+article p {
+ margin-left: 1em;
+ margin-right: 1em;
+ text-align: justify;
+ text-justify: inter-word;
+}
+article table {
+ margin-left: 1em;
+ margin-right: 1em;
+}
+article h3 {
+ margin-left: 1em;
+ margin0right: 1em;
+}
+.masthead {
+ text-align: center;
+}
+table {
+ border-collapse: collapse;
+}
+td {
+ padding: 0.5em;
+}
+table th {
+ border-top: 1px solid #7F8C8D;
+ border-bottom: 1px solid #7F8C8D;
+ text-align: left;
+}
+table td {
+ border-bottom: 1px solid #7F8C8D;
+}
+table tr:hover {
+ background-color: #BDC3C7;
+}
+tr:nth-child(even) {
+ background-color: white;
+}
+tr:nth-child(odd) {
+ background-color: #ECF0F1;
+}

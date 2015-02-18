@@ -42,10 +42,13 @@ Style Modifications
 Part II
 =================
 
+Made use of bootstrap and some css/html code provided by others to make the webpage look more professional. I have included my first disasterous attempt in the throwaway folder for comparion.
+
 Sources Specific to Part II:
 
 * Help with [sidebar layout](http://stackoverflow.com/questions/18147887/html-layout-adding-sidebar-column-to-existing-site)
-* Github and Twitter icons taken from the base Jekyll template.
+* Used some code from the [Simple Sidebar](http://startbootstrap.com/template-overviews/simple-sidebar/) template by start boostrap. Modifications made to coloring and spacing to match existing bootstrap theme and positioning. Simple Sidebar licensed under [Apache v2.0](https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
+* Further assistance with sidebar from [Jonathan Briehl](http://www.jonathanbriehl.com/2014/01/17/vertical-menu-for-bootstrap-3/)
 * JQuery
 
 License/Copyright

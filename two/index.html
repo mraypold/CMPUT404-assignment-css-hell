@@ -1,200 +1,208 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
+
+ <head>
   <meta charset="utf-8">
 
   <title>Michael Raypold</title>
   <meta name="description" content="Michael Raypold Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Michael Raypold">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap-social.css">
 
-  <!-- Clientside GitHub API and Dependencies -->
-  <script src="/scripts/jquery-2.1.0.min.js"></script>
-  <script src="/scripts/underscore-min.js"></script>
-  <script src="/scripts/gh3.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
 
-</head>
+ </head>
+ <header>
+  <nav role="navigation" class="navbar-fixed-top navbar-default">
+   <div class="navbar-header">
+    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+     <span class="sr-only">Toggle navigation</span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+    </button>
 
-<body>
+    <a href="#Home" class="navbar-brand">Michael Raypold</a>
+   </div>
+   <div id="navbarCollapse" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+     <li>
+      <a href="#About">About</a>
+     </li>
+     <li>
+      <a href="#History">History</a>
+     </li>
+     <li>
+      <a href="#Pitch">Pitch</a>
+     </li>
+     <li>
+      <a href="#Other">Other</a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+ </header>
 
-  <div class="maincontainer">
-    <div class="sidebar">
-      <div class="sidecontent">
-        <h3>Michael Raypold</h3>
+ <body>
 
-        <section class="education">
-          <h3>Education</h3>
-          <section class="degree">
-            <p>
-              BA Economics <time datetime="2012-05">May 2012</time>
-            </p>
-          </section>
+  <div id="wrapper">
 
-          <section class="degree">
-            <p>
-              BSc Specialization Computing Science <time datetime="2016-05">(exp) May 2016</time>
-            </p>
-          </section>
+   <div id="sidebar-wrapper">
+    <article>
+     <img src="img/michael.jpg" class="img-thumbnail" alt="me">
+     <h3>Education</h3>
+     <div class="degree">
+      <p>
+       <span class="degree-title">BA Economics</span><br>
+       <span class="degree-institution">University of Alberta</span><br>
+       <span class="degree-date">2012</span>
+      </p>
+      <p>
+       <span class="degree-title">BSc Computing Science</span><br>
+       <span class="degree-institution">University of Alberta</span><br>
+       <span class="degree-date">exp 2015</span>
+      </p>
+     </div>
+     <h3>Languages</h3>
+     <p>
+      Python, Java, C, Javascript
+     </p>
+     <h3>Familiar With</h3>
+     <p>
+      Cassandra, MySQL, Django, Xubuntu, Heroku, OpenShift, Android and TDD.
+     </p>
+     <h3>Learning</h3>
+     <p>
+      Cordova, React, AngularJS, PostgreSQL and D3js.
+     </p>
+     <h3>Contact</h3>
+     <a href="mailto:raypold@ualberta.ca">raypold@ualberta.ca</a>
+     <br>
+     <a class="btn btn-social-icon btn-twitter" href="http://www.twitter.com/mraypold">
+      <i class="fa fa-twitter"></i>
+     </a>
+     <a class="btn btn-social-icon btn-github" href="http://www.github.com/mraypold">
+      <i class="fa fa-github"></i>
+     </a>
 
-        </section>
+    </article>
+   </div>
+   <a class="anchor" name="Home"></a>
 
-        <section class="languages">
-          <h3>Languages</h3>
-          <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>Javascript</li>
-          </ul>
-        </section>
+   <div id="page-wrapper">
+    <div class="container-fluid">
+     <div class="row">
+      <div class="col-lg-12">
+       <a  class="anchor" name="About"></a>
+       <h1>About</h1>
+       <p>
+        Currently studying Computing Science at the University of Alberta.
+       </p>
+       <p>
+        I am interested in high frequency and algorithmic trading. I am curious to see how viable machine learning is trading equity markets. While I don't share in the enthusiam for Bitcoin, I think there are also a lot of interesting opportunities for ECN and smart routing software at the moment; though in general, I am more interested in traditional markets.
+       </p>
+       <p>
+        Other interests include sports analytics and it's visualization. More specifically, I am interested in the increased use of data in hockey.
+       </p>
+       <p>
+        Currently prototyping an application that allows users to store gym routines and view progress over time. The project started as a way to learn Flask and D3js, but has shifted to a mobile application built in Apache Cordova. End vision is an application
+        that is simple, and lightweight, that does away with the distraction of social networks, and user accounts. Everything is stored locally on the phone.
+       </p>
 
-        <section class="technologies">
-          <h3>Familiar With</h3>
-          <p>
-            Cassandra, MySQL, Django, Xubuntu, Heroku, OpenShift, Android Development,
-            TDD, OO Design and Cordova.
-          </p>
-        </section>
+       <a class="anchor" name="History"></a>
+       <h1>History</h1>
+       <h3>Personal and UofA Projects</h3>
+       <div class="table-responsive">
+        <table class="table table-hover">
+         <tr>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Used</th>
+          <th>Date</th>
+          <th>Resource</th>
+         </tr>
+         <tr>
+          <td>Annotify</td>
+          <td>A web annotation SaaS through University of Alberta's eHUB program</td>
+          <td>AngularJS, JQuery, Django, PostgreSQL, Heroku</td>
+          <td>January 2015 - ongoing</td>
+          <td>Closed Source</td>
+         </tr>
+         <tr>
+          <td>Distributed Social Network</td>
+          <td>A distributed social network modelled after Diaspora</td>
+          <td>React, Django, PostgreSQL, Heroku</td>
+          <td>January 2015 - ongoing</td>
+          <td><a href="https://github.com/CMPUT404/socialdistribution">GitHub</a>
+          </td>
+         </tr>
+         <tr>
+          <td>LiftSimple</td>
+          <td>A lightweight, and simple gym exercise tracker without the distraction of social networks and accounts</td>
+          <td>Apache Cordova, Javascript, HTML5, Bootstrap, React, D3js</td>
+          <td>January 2015 - ongoing</td>
+          <td>Closed Source</td>
+         </tr>
+         <tr>
+          <td>Big Data</td>
+          <td>Scaling a Cassandra cluster accross eight nodes to test performance when storing and retrieving large sets of data.</td>
+          <td>Java, Cassandra, Eclipse, Maven</td>
+          <td>January 2014 - May 2014</td>
+          <td>Closed source</td>
+         </tr>
+         <tr>
+          <td>Android Social Media Application</td>
+          <td>Similar in spirit to Twitter, with geolocation support</td>
+          <td>Java, Android, TDD, Eclipse</td>
+          <td>January 2014 - May 2014</td>
+          <td><a href="https://github.com/CMPUT301W14T07/Team7Project">GitHub</a>
+          </td>
+         </tr>
+        </table>
+       </div>
 
-        <section class="interests">
-          <h3>Interests</h3>
-          <ul>
-            <li>Learning new languages and frameworks</li>
-            <li>Trading/HFT</li>
-            <li>Sports analytics</li>
-          </ul>
-        </section>
+       <h3>Work</h3>
+       <ul class="list-group">
+        <li class="list-group-item">Edmonton International Airport - Airside Operations (Student Hire) - Ongoing</li>
+       </ul>
 
-        <section class="contact">
-          <h3>Contact</h3>
-          <a href="mailto:raypold@ualberta.ca">raypold@ualberta.ca</a><br>
-          <a href="http://www.twitter.com/mraypold">mraypold</a><br>
-          <a href="http://www.github.com/mraypold">mraypold</a><br>
+       <a class="anchor" name="Pitch"></a>
+       <h1>Pitch</h1>
+       <p>
+        <b>What I Bring</b>
+       </p>
+       <ul>
+        <li>A background in both economics and computing science.</li>
+        <li>Experience working with a NoSQL database (Cassandra).</li>
+        <li>Ability to learn new frameworks quickly.</li>
+        <li>Very good research skills. I actually enjoy reading and summarizing journal articles, as well as gathering data!</li>
+        <li>Ability to integrate within teams.</li>
+        <li>Leadership experience. I have worked my way up to leadership positions in prior jobs and group projects.</li>
+        <li>Good organization and planning skills.</li>
+       </ul>
 
-        </section>
+       <a class="anchor" name="Other"></a>
+       <h1>Other</h1>
+       <p>
+        If interested, I have some papers from my economics undergrad available to share regarding public finance (sports arenas) and market power (predation and consumer welfare within the grocery/liquor industries). The market power papers proved to be accurate, with the recent mergers/consilidation of grocers in Canada, despite being written 3 years before the Loblaws/Safeway purchase.
+       </p>
+
+       </article>
 
       </div>
+     </div>
     </div>
+   </div>
 
-    <div class="main">
-      <div class="maincontent">
-
-        <div class="masthead">
-          <h1>Michael Raypold</h1>
-          <!-- <hr class="style-seven"> -->
-          <p>
-            Student<br>
-            Edmonton, Alberta
-          </p>
-        </div>
-
-        <section class="about-me">
-          <h1>About Me</h1>
-          <article>
-            <p>
-              Currently studying Computing Science at the University of Alberta.
-            </p>
-            <p>
-              I am interested in high frequency and algorithmic trading. I am
-              curious to see how viable machine learning is trading equity markets.
-
-              I am looking to build a simple pairs trading client with
-              <a href="https://github.com/blampe/IbPy">blamepe/IbPY</a> or
-              <a href="https://github.com/gofinance/ib">gofinance/ib</a> during
-              my free time this summer.
-            </p>
-            <p>
-              Other interests include sports analytics and visualization. More specifically,
-              I am interested in the increased use of data in hockey.
-            </p>
-            <p>
-              Currently prototyping an application that allows users to store gym
-              routines and view progress over time. The project started as a
-              way to learn Flask and D3js, but has shifted to a mobile application
-              built in Apache Cordova. End vision is an application that is simple,
-              and lightweight, that does away with the distraction of social networks,
-              and user accounts. Everything is stored locally on the phone.
-            </p>
-          </article>
-        </section>
-
-        <section class="history">
-          <h1>History</h1>
-            <article>
-              <h3>Education</h3>
-              <p>
-
-              </p>
-
-              <p>
-              <h3>Personal and University of Alberta Projects</h3>
-              <table class="project-history">
-                <tr>
-                  <th>Project</th>
-                  <th>Description</th>
-                  <th>Used</th>
-                  <th>Date</th>
-                  <th>Resource</th>
-                </tr>
-                <tr>
-                  <td>Annotify</td>
-                  <td>A web annotation SaaS through University of Alberta's eHUB program</td>
-                  <td>AngularJS, JQuery, Django, PostgreSQL, Heroku</td>
-                  <td>January 2015 - ongoing</td>
-                  <td>Closed Source</td>
-                </tr>
-                <tr>
-                  <td>Distributed Social Network</td>
-                  <td>A distributed social network modelled after Diaspora</td>
-                  <td>React, Django, PostgreSQL, Heroku</td>
-                  <td>January 2015 - ongoing</td>
-                  <td><a href="https://github.com/CMPUT404/socialdistribution">GitHub</a></td>
-                </tr>
-                <tr>
-                  <td>LiftSimple</td>
-                  <td>A lightweight, and simple gym exercise tracker without the distraction of social networks and accounts</td>
-                  <td>Apache Cordova, Javascript, HTML5, Bootstrap, React, D3js</td>
-                  <td>January 2015 - ongoing</td>
-                  <td>Closed Source</td>
-                </tr>
-                <tr>
-                  <td>Android Social Media Application</td>
-                  <td>Similar in spirit to Twitter, with geolocation support</td>
-                  <td>Java, Android, TDD, Eclipse</td>
-                  <td>January 2014 - May 2014</td>
-                  <td><a href="https://github.com/CMPUT301W14T07/Team7Project">GitHub</a></td>
-               </tr>
-             </table>
-              </p>
-            </article>
-        </section>
-
-        <section class="offering">
-          <h1>What I Have To Offer</h1>
-            <article>
-              <p>
-                <ul>
-                  <li>An interest in learning new technoligies and frameworks</li>
-                  <li>Background in economics and computing science</li>
-                  <li>Nothing else</li>
-                </ul>
-              </p>
-            </article>
-        </section>
-
-        <section class="important-points">
-          <h1>Important Points</h1>
-            <article>
-              <p>
-                Hello World
-              </p>
-            </article>
-        </section>
-      </div>
-    </div>
   </div>
 
-</body>
+ </body>
+
 </html>
