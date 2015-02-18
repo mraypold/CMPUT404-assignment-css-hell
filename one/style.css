@@ -1,18 +1,45 @@
 @import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
-body{
- background-color: white;
- padding-left: 4em;
+html body{
+ /*Generated from http://www.cssmatic.com/gradient-generator#%27\-moz\-linear\-gradient\%28left\%2C\%20rgba\%28255\%2C255\%2C255\%2C1\%29\%200\%25\%2C\%20rgba\%28255\%2C255\%2C255\%2C0\.93\%29\%2012\%25\%2C\%20rgba\%28254\%2C253\%2C205\%2C0\.78\%29\%2037\%25\%2C\%20rgba\%28255\%2C255\%2C255\%2C0\.6\%29\%2066\%25\%2C\%20rgba\%28255\%2C250\%2C92\%2C0\.42\%29\%2096\%25\%2C\%20rgba\%28255\%2C250\%2C92\%2C0\.4\%29\%20100\%25\%29\%3B%27*/
+ background: rgba(222,222,222,1);
+ background: -moz-linear-gradient(left, rgba(222,222,222,1) 0%, rgba(252,247,100,0.68) 55%, rgba(252,249,172,0.59) 71%, rgba(255,247,10,0.44) 96%, rgba(255,247,10,0.42) 100%);
+ background: -webkit-gradient(left top, right top, color-stop(0%, rgba(222,222,222,1)), color-stop(55%, rgba(252,247,100,0.68)), color-stop(71%, rgba(252,249,172,0.59)), color-stop(96%, rgba(255,247,10,0.44)), color-stop(100%, rgba(255,247,10,0.42)));
+ background: -webkit-linear-gradient(left, rgba(222,222,222,1) 0%, rgba(252,247,100,0.68) 55%, rgba(252,249,172,0.59) 71%, rgba(255,247,10,0.44) 96%, rgba(255,247,10,0.42) 100%);
+ background: -o-linear-gradient(left, rgba(222,222,222,1) 0%, rgba(252,247,100,0.68) 55%, rgba(252,249,172,0.59) 71%, rgba(255,247,10,0.44) 96%, rgba(255,247,10,0.42) 100%);
+ background: -ms-linear-gradient(left, rgba(222,222,222,1) 0%, rgba(252,247,100,0.68) 55%, rgba(252,249,172,0.59) 71%, rgba(255,247,10,0.44) 96%, rgba(255,247,10,0.42) 100%);
+ background: linear-gradient(to right, rgba(222,222,222,1) 0%, rgba(252,247,100,0.68) 55%, rgba(252,249,172,0.59) 71%, rgba(255,247,10,0.44) 96%, rgba(255,247,10,0.42) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#fff70a', GradientType=1 ); padding-left: 4em;
  padding-right: 4em;
 }
 .header {
-
+ text-align: center;
+ font-family: "Times New Roman", Georgia, Serif;
 }
-.tablecontents{
+p {
+ text-align: justify;
+ text-justify: inter-word;
 }
-.toc {
+img {
+ border: 1px solid black;
+ box-shadow: 5px 5px 5px #888888;
+}
+/*Image captions*/
+.fig-caption {
+ font-weight: lighter;
+}
+.toc h2 {
+ text-align: center;
+}
+.toc table {
+ margin: auto;
+}
+.toc a:hover {
+ background: rgba(0,0,0,0.1);
+}
+.toc a:link {
+ color: black;
 }
 .chapter {
- background-color: white;
  padding-left: 4em;
  padding-right: 4em;
 }
@@ -29,6 +56,10 @@ body{
  font-family: 'Berkshire Swash', cursive;
  text-align: center;
 }
+.chapter h3 {
+ font-family: 'Berkshire Swash', cursive;
+ text-align: center;
+}
 .gutenberg {
  text-align: center;
 }
@@ -37,11 +68,13 @@ body{
  border: 2px solid;
  border-radius: 25px;
  border-color: red;
+ background: rgba(0,0,0,0.1);
 }
 .title-page {
  text-align: center;
  border: 2px solid;
  border-radius: 10px;
+ background: rgba(0,0,0,0.1);
 }
 .title {
  font-family: 'Berkshire Swash', cursive;

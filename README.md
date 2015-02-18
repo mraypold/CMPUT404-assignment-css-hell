@@ -27,6 +27,7 @@ HTML Modifications
 * I added specific `<div>` and `<span>` tags for inline titles, copyright, and licensing
 * Added chapter classes for each chapter.
 * In general, I tried to use existing classes in the Gutenberg documents instead of making my own. For instance, using the existing toc class for table of contents.
+* Remove some custom spans in *A Tale of Two Cities* that interferred with my css. For instance span tags that made the first character of a paragraph in a chapter 4em.
 
 Style Modifications
 
