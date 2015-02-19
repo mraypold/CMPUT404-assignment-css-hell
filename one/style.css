@@ -1,4 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+/*@font-face {
+ font-family: 'Berkshire Swash';
+ src: url('../fonts/BerkshireSwash-Regular.ttf');
+}*/
 html body{
  /*Generated from http://www.cssmatic.com/gradient-generator#%27\-moz\-linear\-gradient\%28left\%2C\%20rgba\%28255\%2C255\%2C255\%2C1\%29\%200\%25\%2C\%20rgba\%28255\%2C255\%2C255\%2C0\.93\%29\%2012\%25\%2C\%20rgba\%28254\%2C253\%2C205\%2C0\.78\%29\%2037\%25\%2C\%20rgba\%28255\%2C255\%2C255\%2C0\.6\%29\%2066\%25\%2C\%20rgba\%28255\%2C250\%2C92\%2C0\.42\%29\%2096\%25\%2C\%20rgba\%28255\%2C250\%2C92\%2C0\.4\%29\%20100\%25\%29\%3B%27*/
  background: rgba(222,222,222,1);

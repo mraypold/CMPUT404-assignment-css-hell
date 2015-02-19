@@ -24,10 +24,10 @@ Chosen Gutenberg Documents:
 
 HTML Modifications
 
-* I added specific `<div>` and `<span>` tags for inline titles, copyright, and licensing
 * Added chapter classes for each chapter.
 * In general, I tried to use existing classes in the Gutenberg documents instead of making my own. For instance, using the existing toc class for table of contents.
 * Remove some custom spans in *A Tale of Two Cities* that interferred with my css. For instance span tags that made the first character of a paragraph in a chapter 4em.
+* Removed inline style css when necessary.
 
 Style Modifications
 
@@ -53,6 +53,7 @@ Sources Specific to Part II:
 * Further assistance with sidebar from [Jonathan Briehl](http://www.jonathanbriehl.com/2014/01/17/vertical-menu-for-bootstrap-3/)
 * Stary background pattern css by [Lea Verou](http://lea.verou.me/css3patterns/#starry-night)
 * Overwrote some Bootstrap classes to change the styling for the ugly theme.
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/) and [Lipis](http://lipis.github.io/bootstrap-social/) for Github and Twitter icons.
 
 License/Copyright
 =================

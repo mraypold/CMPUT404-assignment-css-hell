@@ -37,7 +37,7 @@
     - [x] Apply 1 CSS file to 3 gutenberg documents.
     - [x] document in your README what modifications you had to make
       to the project gutenberg HTML files.
-    - [ ] Take 3 screenshots of firefox running all of your pages that
+    - [x] Take 3 screenshots of firefox running all of your pages that
       demonstrates your theme.
 
 ** Part II
@@ -70,21 +70,21 @@
 
     - [x] 4 sections: who you are, your history, what you have to
       offer, important points about you
-    - [ ] 1 Ugly CSS theme
+    - [x] 1 Ugly CSS theme
     - [x] 1 good CSS theme
-    - [ ] 2 HTML files, each with the same content but different CSS
+    - [x] 2 HTML files, each with the same content but different CSS
     - [x] your photo (try to keep it professional)
-    - [ ] Take 2 screenshots of firefox running all of your pages that
+    - [x] Take 2 screenshots of firefox running all of your pages that
       demonstrates your theme.
 
 
 ** Restrictions
-   - [ ] Use Python 2.7
-   - [ ] Must run in the undergrad lab (Ubuntu 12.04)
-   - [ ] License your content properly (use a Creative Commons License
+   - [x] Use Python 2.7
+   - [x] Must run in the undergrad lab (Ubuntu 12.04)
+   - [x] License your content properly (use a Creative Commons License
      like CC-BY-ND or CC-BY-SA)
      - Put your name on it!
-   - [ ] If you borrow CSS, always cite the author and the source
+   - [x] If you borrow CSS, always cite the author and the source
 
 ** Recommendations
 
